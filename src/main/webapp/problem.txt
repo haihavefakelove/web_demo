@@ -1,0 +1,20 @@
+vấn đề còn tồn đọng
+
+1: dangnhap
+dang nhap bat loi xong chuyen trang se bi loi
+
+2. dang ki
+neu loi o database thi se khong bao loi , van thong bao thanh cong nhu bthg
+nen thay doi cac truong thong tin , de co 1 muc cap nhat thong tin o ben trong
+
+3.them san pham
+giao dien chua on
+
+4 xoa san pham
+xoa san pham nhung anh ben trong o C/: chua xoa duoc
+
+5 index
+khi chua dang nhap , an gio hang chua chuyen den dangnhap.jsp
+
+6 gio hang
+chua hoan thien nhieu cho

@@ -1,0 +1,150 @@
+root {
+    --primary-color: #EE4D2D;
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*left*/
+.category__list {
+    padding-left: 0;
+}
+
+.category__list-item {
+    border-bottom: 2px solid #e1e1e1;
+}
+
+.category__list-item--link {
+    position: relative;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    font-weight: 500;
+    padding: 8px 16px;
+    display: block;
+    right: 0;
+    transition: right ease-in 0.2s;
+
+}
+
+.category__list-item--link:hover {
+    right: -10px;
+    color: red;
+    cursor: pointer;
+}
+
+/*header*/
+.background-header {
+    background-color: chocolate;
+}
+
+.padding-background {
+    padding: 2px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    border-radius: 10px;
+}
+
+.btn-background {
+    background-color: white;
+    border: none;
+}
+
+.background-taiKhoan {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+/*index*/
+
+.background-container {
+    background-color: #e1e1e1;
+    padding-top: 100px;
+}
+
+/*addproducts*/
+
+.contain {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px;
+
+}
+
+.contain__h1 {
+    width: 100%;
+}
+
+.contain__h1-text {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: var(--text-color);
+}
+
+
+.contain__form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.contain__row {
+    flex: 1 1 calc(50% - 20px);
+    box-sizing: border-box;
+}
+
+.contain__label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contain__input,
+.contain__mota {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contain__mota {
+}
+
+/*css listProdcut*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
